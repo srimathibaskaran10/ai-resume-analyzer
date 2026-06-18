@@ -44,3 +44,14 @@ The application analyzes uploaded resumes and generates:
 - Extracted Skills
 - Resume Feedback
 - Improvement Suggestions
+
+- ## Screenshots
+
+### Home Page
+![Home](home.png)
+
+### Resume Analysis
+![Analysis](analysis.png)
+
+### Results
+![Results](results.png)

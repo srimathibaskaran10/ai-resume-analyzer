@@ -1,2 +1,5 @@
 streamlit
 pypdf2
+Flask
+pandas
+numpy

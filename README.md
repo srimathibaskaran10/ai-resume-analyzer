@@ -1,30 +1,46 @@
 # AI Resume Analyzer
 
-AI-powered Resume Analyzer built using Python and Streamlit.
+An AI-powered web application that analyzes resumes, extracts key skills, and evaluates resume relevance using an ATS-based scoring system.
 
 ## Features
 
-- Resume PDF Upload
-- Resume Text Extraction
-- Skill Detection
-- ATS Score Calculation
+- Resume Analysis
+- Skill Extraction
+- Resume Parsing
+- ATS Scoring
 - Resume Improvement Suggestions
-- Job Role Prediction
-- Download Analysis Report
 
 ## Technologies Used
 
 - Python
-- Streamlit
-- PyPDF2
+- Flask
+- Pandas
+- NumPy
 
-## How to Run
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/srimathibaskaran10/ai-resume-analyzer.git
+```
+
+2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
 ```
 
-## Author
+3. Run the application
 
-Srimathi Baskaran
+```bash
+python app.py
+```
+
+## Project Output
+
+The application analyzes uploaded resumes and generates:
+- ATS Score
+- Extracted Skills
+- Resume Feedback
+- Improvement Suggestions
